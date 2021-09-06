@@ -24,5 +24,7 @@ img1=Image.open(img_path)
 
 print("hii")
 
+print("hii2")
+
 ##text will be extracted from image 
 print(pytesseract.image_to_string(img1,lang='eng'))
