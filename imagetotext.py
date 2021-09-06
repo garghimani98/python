@@ -19,7 +19,7 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 img_path ="path of the image  to be processed"
 
 ###opening image
-img1=Image.open(r"C:\Users\himanig\Desktop\Python\captcha.png")
+img1=Image.open(img_path)
 
 
 
